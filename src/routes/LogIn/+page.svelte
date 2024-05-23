@@ -3,7 +3,7 @@
 
 </script>
 
-<body class="SignBody">
+<body>
     <div>
         <h2 class="title">{Title}</h2>
     </div>
@@ -14,6 +14,15 @@
     </div>  
 </body>
 
+<svelte:head>
+    <style>
+        html {
+            max-width: 100%;
+            min-height: 100%;
+            background-color: #212429;
+        }
+    </style>
+</svelte:head>
 
 <style>
     .Sign {
@@ -36,7 +45,8 @@
         text-align: center;
         text-shadow: 0px 3px 2.5px #333333;
         margin: 12px 0 0 2px;
-        padding: 0 0 0 0;
+         
+        font-family: 'Poppins', monospace;
     }
 
     .SubText {

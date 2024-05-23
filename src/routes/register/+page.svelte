@@ -56,7 +56,7 @@
         background: linear-gradient(to top right, #48D0B8, #9889F9);
     } */
 
-    .backdrop{ 
+    .backdrop { 
         padding: 10px;
         max-width: 60%;
         margin-left: 20%;
@@ -67,19 +67,22 @@
         border-radius: 55px;
         border: 6px solid transparent;
         box-shadow: 2px 2px 10px gray;
+        font-family: 'Poppins';
     }
 
-    .register{
-        color: black;
+    .register {
+        color: #1e1e1e;
         font-size: 4.7em;
         text-align: center;
         word-wrap:break-word;
         margin-bottom: 0%;
         margin-top: 5%;
         text-shadow: 2px 2px 2px gray;
+        padding: 0 0 0 0;
+        font-family: 'Poppins', monospace;
     }
 
-    .details{
+    .details {
         color: black;
         text-align: center;
         word-wrap:break-word;
@@ -88,7 +91,7 @@
         margin-bottom: 5%;
     }
     
-    .inp{
+    .inp {
         color: black;
         word-wrap:break-word;
         font-size: 2.9em;
@@ -100,7 +103,7 @@
        
     }
 
-    .txt{
+    .txt {
         width: 50%;
         height: 40px;
         margin-left: 20px;
@@ -112,7 +115,7 @@
     }
 
 
-    .button{
+    .button {
         text-align: center;
         padding: 10px 24px;
         display: block;
@@ -125,7 +128,7 @@
         color: white;
     }
 
-    .return{
+    .return {
         text-align: center;
         color: #0F4253;
         font-size: 2.5em;
