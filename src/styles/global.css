@@ -4,11 +4,12 @@
 
 .title {
     font-family: 'Michroma', monospace;
-    background: -webkit-linear-gradient(right, #48d0b8, #9889f9);
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg, #48d0b8, #9889f9);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: normal;
     text-align: center;
-    font-size: 450%;
+    font-size: 4vw;
 }
 

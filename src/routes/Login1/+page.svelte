@@ -34,8 +34,8 @@
             </div>
 
             <div class="regCont">
-                <span>Don't have an account?</span>
-                <span class="regText">Register here</span>
+                <span class="regText1">Don't have an account?</span>
+                <span class="regText2">Register here</span>
             </div>
 
             <hr class="end">
@@ -46,7 +46,7 @@
 
 <svelte:head>
     <style>
-        html {
+        html, body{
             max-width: 100%;
             min-height: 100%;
             background-color: #212429;
@@ -58,12 +58,14 @@
     .headContainer {
         align-self: center;
         max-width: 40%;
-        height: 100px;
+        max-height: 100px;
         margin: auto;
     }
 
     .bodyContainer {
         margin: auto;
+        height: 632px;
+        max-width: 100%;
     }
 
     .backDrop {
@@ -72,7 +74,7 @@
         justify-content: center;
         border-radius: 60px;
         width: 60%;
-        height: 620px;
+        height: 98.10%;
         align-items: center;
         margin: auto;
         background: linear-gradient(white, white) padding-box, linear-gradient(90deg, #48d0b8, #9889f9) border-box;
@@ -81,7 +83,7 @@
 
     .signHead {
         color: #1e1e1e;
-        font-size: 350%;
+        font-size: 2.915vw;
         position: relative;
         text-align: center;
         text-shadow: 0px 3px 2.5px #333333;
@@ -94,12 +96,12 @@
         text-align: center;
         padding: 0 0 0 0;
         margin: -8px 0 0 0;
-        font-size: 17px;
+        font-size: 0.885vw;
     }
 
     .userCred {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 6.3%;
         margin-top: 8%;
         margin-bottom: 2%;
         text-align: center;
@@ -108,19 +110,19 @@
     .txtLabel {
         color: #1e1e1e;
         font-family: 'Poppins';
-        font-size: 26px;
+        font-size: 1.35vw;
         position: relative;
         margin: 3px 20px 3px 3px;
         top: 4px;
     }
 
     .inpBox {
-        width: 530px;
-        height: 25px;
+        width: 47.2%;
+        height: 64%;
         border-radius: 5px;
         font-family: 'Poppins';
         font-weight: bold;
-        font-size: 15px;
+        font-size: 0.78vw;
         padding-left: 10px;
         color: #1e1e1e;
     }
@@ -132,18 +134,18 @@
     }
 
     .passCred {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 6.3%;
         text-align: center;
-        margin-left: 0.79%;
+        margin-left: 0.36%;
         margin-bottom: 10%;
     }
 
     .submitCont {
-        width: auto;
-        height: auto;
+        width: 100%;
+        height: 9.67%;
         text-align: center;
-        margin-bottom: 18px;
+        margin-bottom: 1.58%;
     }
 
     .submitBtn {
@@ -152,10 +154,10 @@
         color: #F1F1F1;
         font-family: 'Poppins', monospace;
         text-align: center;
-        font-size: 36px;
-        size: 30px;
-        width: 200px;
-        height: 60px;
+        font-size: 1.88vw;
+        /* size: 30px; */
+        width: 17.81%;
+        height: 100%;
         border-radius: 14px;
         cursor: pointer;
         text-shadow: 3px 3px 5px #333333;
@@ -171,29 +173,35 @@
         cursor: pointer;
         font-family: 'Poppins', monospace;
         text-align: center;
-        font-size: 36px;
+        /* font-size: 36px;
         size: 30px;
         width: 200px;
-        height: 60px;
+        height: 60px; */
 
     }
 
     .regCont {
         font-family: 'Poppins';
         text-align: center;
-        width: auto;
-        height: auto;
-        margin-bottom: 70px;
+        width: 100%;
+        height: 4.03%;
+        margin-bottom: 6.2%;
     }
 
-    .regText {
+    .regText1{
+        font-family: 'Poppins';
+        font-size: 0.84vw;
+    }
+
+    .regText2 {
         font-weight: bold;
         color: #0f4253;
+        font-size: 0.84vw;
         text-decoration: underline;
     }
 
     .end {
-        width: 750px;
+        width: 66.78%;
         border-color: #1e1e1e;
         border-width: 1px;
     }
