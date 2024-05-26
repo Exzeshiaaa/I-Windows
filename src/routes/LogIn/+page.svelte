@@ -55,13 +55,6 @@
 </svelte:head>
 
 <style>
-    .headContainer {
-        align-self: center;
-        max-width: 40%;
-        height: 100px;
-        margin: auto;
-    }
-
     .bodyContainer {
         margin: auto;
     }
