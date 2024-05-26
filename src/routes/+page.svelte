@@ -63,14 +63,7 @@
 
 
 <style>
-    .headContainer {
-        align-self: center;
-        max-width: 40%;
-        max-height: 100px;
-        margin: auto;
-        margin-bottom: 2.88%;
-    }
-
+ 
     .mainContainer{
         width: 1100px;
         height: 700px;

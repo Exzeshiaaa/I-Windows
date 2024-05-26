@@ -68,14 +68,6 @@
 
 <style>
 
-    .headContainer {
-        align-self: center;
-        max-width: 40%;
-        max-height: 100px;
-        margin: auto;
-        margin-bottom: 2.88%;
-    }
-
     .bodyContainer {
         margin: auto;
         height: 632px;

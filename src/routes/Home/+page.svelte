@@ -9,7 +9,7 @@
         <h2 class="title">{Title}</h2>
     </div>
     
-    <br><br>
+    <!-- <br><br> -->
 
     <div class="bodyContainer">
         <div class="backDrop">
